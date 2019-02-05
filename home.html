@@ -4,6 +4,10 @@
     <title>Home | Unicorn Fan Site</title>
 
     <style>
+        body {
+            background-color: #aa2be2;
+        }
+
         a:link {
             color: white;
             text-decoration: none;
@@ -13,13 +17,26 @@
             color: white;
             text-decoration: none;
         }
+
+        .nav {
+            height: 25px;
+            width: 100%;
+            background-color: gray;
+            color: white;
+            vertical-align: middle;
+        }
+
+        .nav-link {
+            color: white;
+            padding-left: 25px;
+        }
     </style>
 </head>
 
 <body>
-    <div style="height:25px;width:100%;background-color:gray;color:white;vertical-align: middle">
-        <a href="home.html" style="padding-left:15px;">Home</a>
-        <a href="anatomy.html" style="padding-left:15px;">Anatomy</a>
+    <div class="nav">
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link" href="anatomy.html">Anatomy</a>
         <!-- <a href="home.html">Home</a>
         <a href="home.html">Home</a>
         <a href="home.html">Home</a>
